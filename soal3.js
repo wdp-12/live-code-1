@@ -2,7 +2,7 @@ function sortingItems(array) {
     // tulis kode disini
     let tempat = []
     for(let i = 0; i<array.length-1;i++){
-        fruits.push([])
+        fruit.push([])
         console.log(tempat)
     }
     return tempat;

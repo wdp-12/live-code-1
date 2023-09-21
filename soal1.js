@@ -2,7 +2,7 @@ function getResult(score) {
     // const nilai = 0
     const kata = "Mendapatkan"
     if (score >= 100 ) {
-        console.log("nilai tidak valid");
+        console.log("Grade A");
     }else if (score >=60 && score <80) {
         console.log("Grade B");
     }else if (score >= 40 && score <60) {
@@ -12,7 +12,8 @@ function getResult(score) {
     }else if (score <=20) {
         console.log("Grade E, belajar lagi nak");
     }else{
-        console.log("Grade A");
+        console.log("nilai tidak valid");
+
     }
     return score;
 }
