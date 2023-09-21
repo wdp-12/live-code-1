@@ -4,6 +4,7 @@
 // 4. jika score lebih besar sama dengan 60 dan score lebih kecil sama dengan 79 maka tampilkan "name mendapatkan nilai B"
 // 5. jika score lebih besar sama dengan 40 dan score lebih kecil sama dengan 59 maka tampilkan "name mendapatkan nilai C"
 // 6. jika score lebih besar sama dengan 20 dan score lebih kecil sama dengan 39 maka tampilkan "name mendapatkan nilai D, belajar lagi nak"
+// 7. jika score lebih besar sama dengan 0 dan score lebih kecil sama dengan 19 maka tampilkan "name mendapatkan nilai E, belajar lagi nak"
 // 7. diluar nilai yang sudah di definisikan pada if statement maka bernilai "Nilai tidak valid"
 
 function getResult(name, score) {
@@ -15,6 +16,8 @@ function getResult(name, score) {
     console.log(`${name} mendapatkan nilai C`);
   } else if (score >= 20 && score <= 39) {
     console.log(`${name} mendapatkan nilai D, belajar lagi nak`);
+  } else if (score >= 0 && score <= 19) {
+    console.log(`${name} mendapatkan nilai E, belajar lagi nak`);
   } else {
     console.log(`Nilai tidak valid`);
   }
