@@ -15,7 +15,6 @@ function getResults(score) {
         console.log("Nilai Tidak valid");
     }
     return nilai;
-
 }
 
 getResults("Rozan", 78);
