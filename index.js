@@ -66,26 +66,56 @@
 // // Output
 // // [];
 
-function sortingItems(array) {
-    const result = {};
+// function sortingItems(array) {
+//     const result = {};
 
-    array.forEach(item => {
-        const Fruitspokemons = item.charAt(0).
-        toLowerCase(0);
+//     array.forEach(item => {
+//         const Fruitspokemons = item.charAt(0).
+//         toLowerCase(0);
 
-        if(!result[Fruitspokemons]) {
-            result[Fruitspokemons] = [];
+//         if(!result[Fruitspokemons]) {
+//             result[Fruitspokemons] = [];
+//         }
+//         result[Fruitspokemons].push(item);
+//     });
+//     return result;
+// }
+
+// const fruits = [ "Banana", "Pomegranate", "Apple", "Pears", "Avocado", "Appricot" ];
+// const pokemons = [ "Rattata", "Pikachu", "Pidgey", "Nidoran", "Raichu" ];
+
+// const sortedFruits = sortingItems(fruits);
+// console.log(sortedFruits);
+
+// const sortedPokemons = sortingItems(pokemons);
+// console.log(sortedPokemons);
+
+function createBlocks(block, size) {
+
+    if(![1,4,9,16]) includes(size) {
+        return "size invalid";
+    }
+
+    if (block <= 0) {
+        return "block invalid";
+    }
+
+    let output = "";
+
+    for (let i = 0; i < size; i++) {
+        for(let k = 0; k < block; k++) {
+            output + = "* ";
         }
-        result[Fruitspokemons].push(item);
-    });
-    return result;
+        output + = "\n";
+
+    }
+
+    return output;
 }
 
-const fruits = [ "Banana", "Pomegranate", "Apple", "Pears", "Avocado", "Appricot" ];
-const pokemons = [ "Rattata", "Pikachu", "Pidgey", "Nidoran", "Raichu" ];
-
-const sortedFruits = sortingItems(fruits);
-console.log(sortedFruits);
-
-const sortedPokemons = sortingItems(pokemons);
-console.log(sortedPokemons);
+console.log(createBlocks(3,4));
+console.log(createBlocks(2,9));
+console.log(createBlocks(1,16));
+console.log(createBlocks(1,13));
+console.log(createBlocks(0,4));
+console.log(createBlocks(1,3));
