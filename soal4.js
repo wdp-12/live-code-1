@@ -14,16 +14,6 @@ function createBlocks(block, size) {
         return "size invalid";
       }
     
-      let result = "";
-    
-      for (let i = 1; i <= block; i++) {
-        for (let j = 1; j <= size; j++) {
-          result += "* ";
-        }
-        result += "\n";
-      }
-    
-      return result;
 }
 
 createBlocks(3, 4);
