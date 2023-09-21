@@ -24,8 +24,3 @@ console.log(getEvenNumbers(1));
 // Output
 // [];
 
-//PSEUDO CODE//
-// buat array evenNumbers
-//untuk setiap i dari 2 hingga num dengan langkah 2:
-// tambahkan i ke dalam evenNumbers
-//kembalikan evenNumbers 
