@@ -10,9 +10,9 @@ function createBlocks(block, size) {
   }
 
   // tulis kode disini
-  for (let i = 1; i <= 6; i++) {
+  for (let i = 1; i < block; i++) {
     let row = "";
-    for (let j = 1; j <= i * 2; j++) {
+    for (let j = 1; j < size; j++) {
       row += "* ";
     }
     console.log(row);
