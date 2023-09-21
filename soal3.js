@@ -2,14 +2,6 @@ function sortingItems(array) {
     // tulis kode disini
     const result = [];
 
-    for (const item of array) {
-      const firstLetter = item[0];
-      if (result[firstLetter]) {
-        result[firstLetter].push(item);
-      } else {
-        result[firstLetter] = [item];
-      }
-    }
   
     return result;
   }
