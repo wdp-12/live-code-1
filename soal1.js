@@ -1,5 +1,5 @@
 //ok ler
-function getResult(name, score) {
+function getResult(score) {
   let grade;
 
   if (score >= 80 && score <= 100) {
@@ -16,12 +16,12 @@ function getResult(name, score) {
     grade = "Nilai tidak valid";
   }
 
-  return name + " mendapatkan " + grade;
+  return " mendapatkan " + grade;
 }
 
-console.log(getResult("Adrian", 78));
-console.log(getResult("Rafhi", 80));
-console.log(getResult("Rafhi", 80));
-console.log(getResult("Annisa", 1000));
-console.log(getResult("Taufik", 21));
-console.log(getResult("Taufik", -10));
+console.log(getResult(78));
+console.log(getResult(80));
+console.log(getResult(80));
+console.log(getResult(1000));
+console.log(getResult(21));
+console.log(getResult(-10));
