@@ -13,7 +13,6 @@ function createBlocks(block, size) {
         return "block invalid";
     }
 
-    // Langkah 3: Buat pola blok bintang
     for (let i = 1; i <= size; i++) {
         for (let j = 1; j <= block; j++) {
             for (let k = 1; k <= i; k++) {
