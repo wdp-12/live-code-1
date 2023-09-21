@@ -1,3 +1,15 @@
+//pseudocode:
+// Fungsi getEvenNumbers(num)
+//     Buat sebuah array kosong evenNumbers
+//     Set i sama dengan 2
+
+//     Selama i kurang dari atau sama dengan num
+//         Tambahkan i ke dalam array evenNumbers
+//         Tambahkan i dengan 2
+
+//     Kembalikan evenNumbers
+// End Fungsi
+
 function getEvenNumbers(num) {
   const evenNumbers = [];
   for (let i = 2; i <= num; i += 2) {
