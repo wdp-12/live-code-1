@@ -21,8 +21,8 @@ function getResult(name,score) {
     }
 }
 
-getResult("Adrian",78); // Output: "grade B"
-getResult("Rafhi",83); // Output: "grade A"
+getResult("Adrian",78); // Output: "Adrian mendapatkan grade B"
+getResult("Rafhi",83); // Output: "Rafhi mendapatkan grade A"
 getResult("Annisa",1000); // Output: "Nilai Tidak Valid"
-getResult("Taufik",21); // Output: "grade D, Belajar lagi nak"
+getResult("Taufik",21); // Output: "Taufik mendapatkan grade D, Belajar Lagi nak"
 getResult("Taufik",-18); // Output: "Nilai Tidak Valid"
