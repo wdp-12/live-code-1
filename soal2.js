@@ -3,8 +3,6 @@ function getEvenNumber(now) {
     for (let i = 0; i < now; i++) {
         if (nilai * 2) {
             console.log(nilai);
-        } else {
-
         }
     }
 
