@@ -1,11 +1,10 @@
 function getEvenNumber(now) {
-    let nilai;
-    for (let i = 0; i < now; i++) {
-        if (nilai * 2) {
-            console.log(nilai);
+    let nilai = [];
+    for (let i = 2; i <= now; i++) {
+        if (i % 2 === 0) {
+            nilai[nilai.length] = i;
         }
     }
-
     return nilai
 }
 console.log(getEvenNumber(16));
