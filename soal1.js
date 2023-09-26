@@ -1,6 +1,5 @@
 function getResults(score) {
     let nilai = hasil;
-    console.log(nilai);
     if (nilai <= 100 && nilai >= 80) {
         console.log(score + " Grade: A");
     } else if (nilai <= 79 && nilai >= 60) {
